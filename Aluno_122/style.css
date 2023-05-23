@@ -1,0 +1,24 @@
+body{
+	text-align: center;
+	background-image: url(walpaper.webp);
+}
+h3{
+	background-color: rgb(255,255,204,0.5);
+	width: 95%;
+	height: 40px;
+	padding-top: 6px;
+	border-radius: 10px;
+}
+#status{
+	font-size: 18px;
+	color: blue;
+}
+span{
+	font-size: 18px;
+	color: red;
+}
+canvas{
+	background: rgb(245,251,255);
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
