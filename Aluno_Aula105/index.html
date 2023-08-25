@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Identificador de Imagens</title>
+
+    <!-- BOOTSTRAP -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- ML5 (Machine Learning) -->
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <!-- WEBCAN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+      <h3 class="btn btn-default heading">IDENTIFICADOR DE IMAGENS</h3>
+      <br><br>
+
+      <p style="font-size: 22px;">O modelo foi treinado para indentificar estes objetos: </p>
+
+      <b class="nameObjects">
+        Relógio
+        <hr>
+        Colher
+        <hr>
+        Smartphone
+        <hr>
+        Garrafa
+        <hr>
+      </b>
+
+      <label>Visualização da webcam - </label>
+      <div id="camera"></div>
+      <br><br>
+      <div id="result"></div>
+      <br><br>
+      <button onclick="takeSnapshot()" class="btn btn-info">Capturar Imagem</button>
+      <br><br>
+      <button onclick="check()" class="btn btn-success">Identificar Imagem</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Objeto: <span id="resultObjectName"></span> </p>
+      <p style="font-size: 22px;">Precisão: <span id="resultObjectAccuracy"></span> </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
