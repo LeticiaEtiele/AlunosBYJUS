@@ -1,0 +1,19 @@
+body {
+  color: white;
+  background: #c0d3ff;
+}
+span {
+  font-size: 30px;
+}
+#camera , #result {
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+.nomeEmocao {
+  font-size: 40px;
+  color: black;
+}
+.emoji {
+  font-size:48px;
+}
