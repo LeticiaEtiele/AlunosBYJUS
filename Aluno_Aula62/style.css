@@ -1,0 +1,15 @@
+body
+{
+    text-align: center;
+}
+
+#app {
+    background-color: aliceblue;
+}
+
+.carousel-inner p
+{
+    margin-top: 15px;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    font-size: 20px;
+}
