@@ -1,0 +1,13 @@
+/*Criar estilo para o body*/
+
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+#status{
+    font-size: 18px;
+}
+
+/*Criar estilo para o canvas*/
